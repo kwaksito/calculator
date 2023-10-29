@@ -1,0 +1,194 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background-color: #3F51B5;
+  color: #000000;
+}
+
+.results{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto auto auto auto;
+}
+
+
+.stats{
+  display:grid;
+  grid-template-columns: auto auto;
+  margin: 5px;
+  border:solid 1px;
+  border-color:#000000;
+  border-radius: 5%;
+  align-items: center;
+  background-color: #E5E4E2;
+}
+
+.hoofd{
+  display:grid;
+  grid-template-columns: auto auto;
+  margin: 5px;
+  border:solid 1px;
+  border-color:#000000;
+  border-radius: 5%;
+  align-items: center;
+  background-color: #E5E4E2;
+  height:500px;
+}
+
+.results .koppel{
+  display:grid;
+  margin-bottom: 20px;
+  margin-left: 33%;
+  margin-right:33%;
+  margin-top:5%;
+  margin-bottom:5%;
+  font-size: 1rem;
+}
+
+.hoofd .koppel{
+  display:grid;
+  width: 100%;
+  grid-template-columns: 100%;
+  margin-bottom: 20px;
+  margin-left: 33%;
+  margin-right:33%;
+  margin-top:5%;
+  margin-bottom:5%;
+  font-size: 3rem;
+  justify-content: center;
+  align-content: center;
+}
+
+
+
+.lijst{
+  width: auto;
+  position: relative;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+
+}
+
+.productlist{
+border: solid;
+border-radius: 5%;
+background-color:#9FA8B3 ;
+width: 90%;
+height: 350px;
+position: relative;
+padding: 5px;
+display: grid;
+grid-template-columns: 50% 50%;
+}
+
+.productlist .antwoord{
+
+  margin-top:0px;
+  margin-bottom:10px;
+}
+
+
+.productlist .vraag{
+
+  margin-top:5px;
+  margin-bottom:0px;
+}
+
+
+
+
+.button{
+  width: 200px;
+  height:50px;
+  padding: 8px;
+  background-color:#228B22;
+  color: #EDEDED;
+  border: solid 2px;
+  border-color: #333333;
+  border-radius: 2em;
+  }
+
+
+  .buttonSettings{
+    margin-left: 5%;
+    margin-top: 5px;
+    margin-top: 5px;
+    
+    }
+
+  .buttonSettings button{
+    width: 100px;
+    padding: 8px;
+    color: #EDEDED;
+    background-color:#008080;
+    border-radius: 2em;
+    border: solid 1px;
+    border-color:black;
+  }
+
+.huisje{
+  color:black;
+  font-size: 3em;
+}
+
+
+.container{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  height:300px;
+}
+
+.setting-section{
+  display:grid;
+  position: relative;
+  grid-template-columns: 50% 50%;
+  height:700px;
+  background-color: #3F51B5;
+  border: solid 1px;
+}
+
+.setting-section .item{
+  display:grid;
+  position:relative;
+  margin: 5px;
+  position: relative;
+  grid-template-columns: 50%;
+  grid-template-rows: 25% 25% 25% 25%;
+  width: 600px;
+  background-color: #C0C0C0;
+  border-radius: 5%;
+  justify-items: center;
+  align-items: center;
+  
+}
+
+.setting-section .item form{
+  padding-left:50%;
+  padding-top: 50%;
+  
+}
+
+
+
+.settingsinput{
+  border:1px solid;
+  border-radius: 5%;
+  border-color:black
+  
+}
+
+
+.buttonSection{
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+
+
+
