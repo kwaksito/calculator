@@ -16,19 +16,19 @@ var iinkomen:number = sinkomen
 const Huizenlijst = () => {
   return (
         <div className='lijst'>
-            {HuizenData.map(HuizenData => (
+            {HuizenData.map((HuizenDats:any) => (
                 <Huizen className='card'
-                key={HuizenData.nummer}
-                waarde={ checkDuizenden(HuizenData.waarde)}
-                jaar={HuizenData.jaar}
-                hpm={ checkDuizenden(HuizenData.hpm)}
-                ipm={ checkDuizenden(HuizenData.ipm)}
-                spaargeldvoor={ checkDuizenden(HuizenData.spaargeldvoor)}
-                spaargeldna={checkDuizenden(HuizenData.spaargeldna)}
-                hypotheek={ checkDuizenden(HuizenData.hypotheek)}
-                cashflow={ checkDuizenden(HuizenData.cashflow)}
-                afbetaald={checkStatus(HuizenData.afbetaald)}
-                profit={checkDuizenden(HuizenData.profit)}
+                key={HuizenDats.nummer}
+                waarde={ checkDuizenden(HuizenDats.waarde)}
+                jaar={HuizenDats.jaar}
+                hpm={ checkDuizenden(HuizenDats.hpm)}
+                ipm={ checkDuizenden(HuizenDats.ipm)}
+                spaargeldvoor={ checkDuizenden(HuizenDats.spaargeldvoor)}
+                spaargeldna={checkDuizenden(HuizenDats.spaargeldna)}
+                hypotheek={ checkDuizenden(HuizenDats.hypotheek)}
+                cashflow={ checkDuizenden(HuizenDats.cashflow)}
+                afbetaald={checkStatus(HuizenDats.afbetaald)}
+                profit={checkDuizenden(HuizenDats.profit)}
                 />
             ))}
         </div>

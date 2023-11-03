@@ -374,7 +374,7 @@ const Result2 = () => {
 
     <div className='cardSection'>
     <div className='lijst'>
-            {HuizenData.map((HuizenDats) => (
+            {HuizenData.map((HuizenDats:any) => (
                 <Huizen className='card'
                 key={HuizenDats.nummer}
                 waarde={ checkDuizenden(HuizenDats.waarde)}
